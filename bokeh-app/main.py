@@ -93,7 +93,7 @@ r_slider = Slider(title="Discrete Growth Rate", value=r, start=0, end=3, step=0.
 r0_slider = Slider(title="Basic reproduction number", value=r0, start=0, end=3, step = 0.02)
 Nt_slider = Slider(title="Total time (days)", value=Nt, start=10, end=max_Nt, step=1)
 country_opts = country_list
-dropdown = Select(title="Select Country", value="Australia", options=country_opts)
+dropdown = Dropdown(labe="Select Country", button_type="warning", menu=country_opts)
     
 def update_data(attrname, old, new):
     # Get the current slider values
