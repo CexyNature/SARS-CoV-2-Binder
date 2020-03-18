@@ -6,7 +6,6 @@ from bokeh.io import curdoc, show
 from bokeh.layouts import row, column, widgetbox, gridplot
 from bokeh.models import ColumnDataSource, Legend, DatetimeTickFormatter, Dropdown
 from bokeh.models.widgets import Slider, TextInput, Select
-from bokeh.io import output_notebook, output_file
 
 from bokeh.application import Application
 from bokeh.application.handlers import FunctionHandler
